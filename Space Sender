@@ -1,0 +1,20 @@
+//Levitation arrows and potions. To be used on other players. 
+//Credits to http://mcstacker.bimbimma.com/ for helping me create these.
+
+//Levitation Potions.
+//Long-time! (Forever)
+minecraft:lingering_potion 1 0 {display:{Name:"&4&LSpace-Sender",Lore:[&a&L(A long time!)]},CustomPotionEffects:[{Id:25,Amplifier:60,Duration:72000000,ShowParticles:0b}],Potion:"minecraft:healing"}
+<>
+//1 second, but 2x stronger amplifier.
+minecraft:lingering_potion 1 0 {display:{Name:"&4&LSpace-Sender",Lore:[&a&L(A short time!)]},CustomPotionEffects:[{Id:25,Amplifier:120,Duration:20,ShowParticles:0b}],Potion:"minecraft:healing"}
+<>
+<>
+//Levitation Arrows.
+//1 second, but 2x stronger amplifier.
+minecraft:tipped_arrow 1 0 {display:{Name:"&4&LSpace-Sender",Lore:[&a&L(A short time!)]},CustomPotionEffects:[{Id:25,Amplifier:120,Duration:20,ShowParticles:0b}],Potion:"minecraft:long_weakness"}
+<>
+//Long-time! (Forever)
+/give PlayerNameHere minecraft:tipped_arrow 1 0 {display:{Name:"&4&LSpace-Sender",Lore:[&a&L(A long time!)]},CustomPotionEffects:[{Id:25,Amplifier:60,Duration:3200000,ShowParticles:0b}],Potion:"minecraft:long_weakness"}
+<>
+
+//That's all!
