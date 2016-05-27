@@ -1,0 +1,4 @@
+//There was Sign Exploiter's Paradise, but I decided to remove it due to that 'legal-illegal' problems.
+//and replace it with your favourite Diamond Sword of Sharpness 32627.
+
+minecraft:diamond_sword 1 0 {ench:[{id:16,lvl:32627}]}
